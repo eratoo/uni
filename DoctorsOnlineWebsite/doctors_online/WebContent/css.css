@@ -1,0 +1,58 @@
+@CHARSET "UTF-8";
+
+
+
+body {
+	background-color: #E1EAF3;
+	text-align:center;
+	font-size:14px;
+	color:#33344C;
+	font-family: sans-serif;
+	padding-bottom:50px;
+}
+a
+{
+	text-align:left;
+}
+a:hover { color: white }
+h1{ 
+color:white;
+text-align:left;
+margin-left:90px;
+}
+h2{
+	color:#7384A9;
+}
+th{
+	color:#7384A9;
+}
+table{
+	margin: 0px auto;    
+}
+ 
+td
+{
+	text-align:left;
+}
+
+select {
+    width: 100%;
+    border: 1px solid #5476BE;
+    background-color: white;
+}
+
+
+div{
+	background-image:url("image.jpg");
+	background-size:     cover;                      
+    background-repeat:   no-repeat;
+    background-position: center center;
+    vertical-align: middle;
+line-height: 150px;
+	height:140px;
+margin-bottom:30px;
+}
+
+input[type=text],[type=password]{
+    border: 1px solid #5476BE;
+}

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset="UTF-8">
+<link rel="stylesheet" href="css.css" type="text/css">
+<title>Δημιουργία λογαριασμού</title>
+</head>
+<body>
+<div>
+<h1>DOCTORS ONLINE</h1>
+</div>
+<p>Εισαγωγή Ασθενούς </p>
+	<form method="post" action="/doctors_online/RegisterPatientServlet">
+		<input type="hidden" name="requestType" value="register" />
+		<table>
+			<tr>
+				<td>ΑΜΚΑ:</td>
+				<td><input type="text" name="amka" /></td>
+				
+			</tr>
+			<tr>
+				<td>Όνομα χρήστη:</td>
+				<td><input type="text" name="username" /></td>
+				
+			</tr>
+			<tr>
+				<td>Κωδικός:</td>
+				<td><input type="text" name="password" /></td>
+				
+			</tr>
+			<tr>
+				<td>Όνομα:</td>
+				<td><input type="text" name="name" /></td>
+				
+			</tr>
+			<tr>
+				<td>Επώνυμο:</td>
+				<td><input type="text" name="surname" /></td>
+				
+			</tr>
+		</table>
+		<input type="submit" value="Δημιουργία λογαριασμού">
+	</form>
+	<a href="/doctors_online/index.html">Ακύρωση</a>
+</body>
+</html>
